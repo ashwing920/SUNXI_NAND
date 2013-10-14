@@ -1,0 +1,1 @@
+cmd_drivers/block/sunxi_nand/nfd/nand.ko := arm-linux-gnueabihf-ld -EL -r  -T /root/swiftboard/linux-sunxi/scripts/module-common.lds --build-id  -o drivers/block/sunxi_nand/nfd/nand.ko drivers/block/sunxi_nand/nfd/nand.o drivers/block/sunxi_nand/nfd/nand.mod.o
